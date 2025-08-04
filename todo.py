@@ -17,3 +17,7 @@ add_task("Learn Git")
 add_task("Write Python script")
 mark_done(0)
 show_tasks()
+
+def delete_task(index):
+    if 0 <= index < len(tasks):
+        tasks.pop(index)
