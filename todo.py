@@ -20,4 +20,5 @@ show_tasks()
 
 def delete_task(index):
     if 0 <= index < len(tasks):
-        tasks.pop(index)
+        removed = tasks.pop(index)
+        print(f"Deleted: {removed['task']}")
