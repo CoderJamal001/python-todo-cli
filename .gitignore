@@ -1,0 +1,12 @@
+
+---
+
+## ⚙️ .gitignore File
+
+In your project root, create a `.gitignore` file and add:
+
+```gitignore
+__pycache__/
+*.pyc
+venv/
+.env
